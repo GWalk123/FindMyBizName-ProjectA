@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FindMyBizName</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>FindMyBizName</h1>
+    <p>Your AI-powered business name generator</p>
+  </header>
+  <main>
+    <section id="description">
+      <h2>About</h2>
+      <p>FindMyBizName is an AI-powered tool designed to help entrepreneurs and business owners generate unique and creative business names tailored to their industry and preferences.</p>
+    </section>
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>AI-powered name generation</li>
+        <li>Industry-specific suggestions</li>
+        <li>Customizable preferences</li>
+        <li>Responsive design for all devices</li>
+      </ul>
+    </section>
+    <section id="usage">
+      <h2>How to Use</h2>
+      <ol>
+        <li>Enter your industry and preferences in the input fields.</li>
+        <li>Click the "Generate" button to get a list of suggested names.</li>
+        <li>Choose your favorite name and start your business journey!</li>
+      </ol>
+    </section>
+    <section id="generator">
+      <h2>Business Name Generator</h2>
+      <form id="name-generator-form">
+        <label for="industry">Industry:</label>
+        <input type="text" id="industry" name="industry" placeholder="e.g., Technology" required>
+        <label for="preferences">Preferences:</label>
+        <input type="text" id="preferences" name="preferences" placeholder="e.g., Modern, Short" required>
+        <button type="submit">Generate</button>
+      </form>
+      <div id="results">
+        <h3>Generated Names:</h3>
+        <ul id="name-list"></ul>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 FindMyBizName. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
