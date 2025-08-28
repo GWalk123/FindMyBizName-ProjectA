@@ -1,0 +1,16 @@
+{
+  "name": "findmybizname",
+  "version": "1.0.0",
+  "description": "A business name generator application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0"
+  }
+}
